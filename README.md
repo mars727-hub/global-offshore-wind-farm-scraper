@@ -1,5 +1,24 @@
 # Global Offshore Wind Farm Scraper
 
+A Python tool designed to scrape global offshore wind farm data from public Wikipedia lists.
+
+## Features
+- **Targeted Extraction:** Automatically scrapes data for wind farms that are currently **Operational** or **Under Construction**.
+- **Anti-Blocking:** Simulates a legitimate browser User-Agent to bypass basic anti-scraping mechanisms.
+- **Structured Output:** Exports the processed data into a clean `.csv` file.
+
+## Installation & Usage
+
+1. **Install dependencies:**
+   ```bash
+   pip install -r requirements.txt
+2. **Run the scraper:**
+   python scraper_wind_farm.py
+
+
+   
+# 全球離岸風場資料爬蟲
+
 這是一個用於抓取全球離岸風場資料的 Python 工具。
 資料來源為維基百科公開列表。
 
